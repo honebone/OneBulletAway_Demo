@@ -24,7 +24,6 @@ public class BattleManager : MonoBehaviour
     public void BattleStart()
     {
         SetTurn(10);
-        Player.inst.Reload();
     }
     void SetTurn(int turns=1)
     {
